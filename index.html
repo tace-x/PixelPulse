@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PixelPulse</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="topbar">
+        <div class="brand-wrap" aria-label="PixelPulse brand">
+          <span class="brand-mark">P</span>
+          <h1>PixelPulse</h1>
+        </div>
+
+        <form class="search-form" id="search-form">
+          <label class="sr-only" for="search-input">Search images</label>
+          <input id="search-input" type="search" placeholder="Search images..." />
+          <button type="submit">Search</button>
+        </form>
+      </header>
+
+      <main class="content">
+        <p id="status" class="status-text" aria-live="polite">
+          Discover visually rich inspiration.
+        </p>
+
+        <section id="results" class="results-grid" aria-live="polite">
+          <article class="result-card">
+            <div class="thumbnail thumb-one"></div>
+            <div class="card-body">
+              <h2>Urban Rhythm</h2>
+              <p>City textures and neon reflections.</p>
+            </div>
+          </article>
+
+          <article class="result-card">
+            <div class="thumbnail thumb-two"></div>
+            <div class="card-body">
+              <h2>Soft Horizon</h2>
+              <p>Dreamy gradients with cinematic light.</p>
+            </div>
+          </article>
+
+          <article class="result-card">
+            <div class="thumbnail thumb-three"></div>
+            <div class="card-body">
+              <h2>Minimal Frame</h2>
+              <p>Clean compositions from everyday objects.</p>
+            </div>
+          </article>
+
+          <article class="result-card">
+            <div class="thumbnail thumb-four"></div>
+            <div class="card-body">
+              <h2>Golden Hour</h2>
+              <p>Warm tones, shadows, and motion.</p>
+            </div>
+          </article>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
